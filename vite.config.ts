@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(({mode}) => {
   return {
+    base: '/kanji-reading-game/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
